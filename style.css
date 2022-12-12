@@ -50,7 +50,7 @@ body{
   flex-basis:580px;
   margin-bottom:40px;
   padding-bottom:40px;
-  border-bottom:1px solid #ddd;
+  border-bottom:1px solid rgb(124, 124, 124);
 }
 .single-menu:nth-child(5), .single-menu:nth-child(6){
   border-bottom:0;
@@ -74,7 +74,7 @@ body{
 .single-menu h4{
   text-transform:capitalize;
   font-size:22px;
-  border-bottom:1px dashed #333;
+  border-bottom:1px dashed rgb(82, 82, 82);
   margin-bottom:5px;
   padding-bottom:5px;
 }
@@ -93,6 +93,8 @@ img {
   .wrapper {
     width: 400px;
     margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .title h4 {
@@ -101,10 +103,11 @@ img {
 
   .single-menu {
     display: block;
-    
+    flex-basis:400px;
   }
   img {
-    margin-left: 125px;
+    margin-top: 10px;
+    margin-left: 98px;
     margin-bottom: 25px;
   }
 }
