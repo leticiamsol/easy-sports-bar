@@ -19,7 +19,7 @@ body{
 .title{
   text-align:center;
   margin-bottom:60px;
-}
+} 
 
 .title h4{
   text-transform:capitalize;
@@ -87,4 +87,24 @@ body{
 img {
     width: 150px;
     height: 150px;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    width: 400px;
+    margin-top: 40px;
+  }
+
+  .title h4 {
+    font-size: 28px;
+  }
+
+  .single-menu {
+    display: block;
+    
+  }
+  img {
+    margin-left: 125px;
+    margin-bottom: 25px;
+  }
 }
