@@ -53,9 +53,11 @@ body{
   border-bottom:1px solid rgb(124, 124, 124);
 }
 
+/*
 .single-menu:nth-child(6), .single-menu:nth-child(7){
   border-bottom:0;
 }
+*/
 
 .single-menu{
   display:flex;
