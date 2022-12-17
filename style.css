@@ -13,7 +13,7 @@ body{
 
 .wrapper{
   width:1200px;
-  margin:100px auto;
+  margin:60px auto;
 }
 
 .title{
@@ -58,6 +58,12 @@ body{
   flex-direction:row;
   align-items:center;
 }
+
+.logo {
+  width: 200px;
+  height: 80px;
+}
+
 .single-menu:hover img{
   border-radius:0;
 }
